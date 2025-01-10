@@ -57,3 +57,38 @@ footer p {
 .btn-primary:hover {
     background-color: #45a049; /* Darker green on hover */
 }
+
+/* Container for each image-text unit */
+.unit-container {
+    margin-bottom: 30px;
+}
+
+/* Green line separator between units */
+.green-line {
+    height: 2px;
+    background-color: #388E3C;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Ensure the images do not expand uncontrollably */
+.unit-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Emphasized text */
+.unit-container .text {
+    font-size: 1.25rem;
+    font-weight: normal;
+    line-height: 1.8;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Optional padding for text */
+.unit-container .text p {
+    padding-right: 20px;
+}
