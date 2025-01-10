@@ -3,23 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sunwise Solutions</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>About Us - Sunwise Tech Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Sunwise Solutions</h1>
-        <nav>
-            <a href="about.html">About Us</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Sunwise Tech Solutions</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="bg-warning py-5 text-center text-white">
+        <div class="container">
+            <h1 class="display-4 fw-bold">About Us</h1>
+        </div>
     </header>
-    <main>
-        <p>Your trusted partner in growth.</p>
+
+    <!-- About Us Content -->
+    <main class="container py-5">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="lead">
+                    <strong>SUNWISE Tech Solutions PVT LTD</strong> is an innovative and adaptable entity that prioritizes sustainability and excellence in all endeavors.
+                </p>
+                <p>
+                    We provide comprehensive services and supplies across critical sectors:
+                </p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Renewable Energy: Focusing on the efficient utilization of natural resources.</li>
+                    <li class="list-group-item">Medical: Delivering cutting-edge solutions to enhance healthcare delivery.</li>
+                    <li class="list-group-item">Infrastructure: Committed to constructing resilient structures tailored to community needs.</li>
+                </ul>
+                <p class="mt-4">
+                    With a steadfast commitment to continual innovation and uncompromising quality standards, SUNWISE Tech Solutions strives to be a reliable partner for clients seeking advanced and sustainable solutions that foster a positive impact on society and the environment.
+                </p>
+            </div>
+        </div>
     </main>
-    <footer>
-        <p>&copy; 2025 Sunwise Solutions</p>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3">
+        <p>&copy; 2025 Sunwise Tech Solutions Pvt. Ltd. All rights reserved.</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
